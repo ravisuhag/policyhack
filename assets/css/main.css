@@ -6,7 +6,8 @@ html,
 body {
     height: 100%;
     font-family: Dosis;
-    background: url(../img/patt.jpg);
+    /*background: url(../img/patt.jpg);*/
+    
     background-size: cover;
 }
 body {
@@ -24,16 +25,20 @@ body {
 /*-------------[ Global: Navbar]-------------------*/
 
 .tw-nav {
-    border-bottom: 1px solid #22313F;
-    background-color: #22313F;
-    box-shadow: 0 1px 2px rgba(1, 1, 1, 0.05);
+    border-bottom: 0px solid #12212F;
+    background-color: rgba(255,255,255,.6);
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
 }
 .tw-nav .navbar-brand,
 .tw-nav .navbar-brand:hover,
 .tw-nav .navbar-brand:focus {
     color: #fff;
-    padding: 15px 20px;
+    padding: 5px 30px;
     font-size: 26px;
+    height: 70px
+}
+.logo{
+    height: 100%
 }
 .tw-nav .navbar-nav > li > a {
     border-left: solid 0 #efefef;
@@ -78,10 +83,61 @@ body {
 .tw-nav .dropdown-menu li >a {
     padding: 10px 15px
 }
+/**/
+
+.hero-bg {
+    background-color: #D35400;
+    background: url(../img/6.png);
+    background-size: cover;
+    border-bottom: solid 1px #eee;
+    height: 650px;
+}
+.hero-content {
+    position: absolute;
+    top:100px;
+    color: #fff;
+    left: 50%;
+    margin-left: -200px
+
+}
+.hero-content h1 {
+    font-size: 105px;
+    display: block;
+    text-shadow: 0 1px 5px rgba(0, 0, 0, 0.9);
+    font-weight: lighter;
+    padding-top: 70px;
+}
+.hero-content h1 strong {
+    font-weight: 500
+}
+.hero-content .lead {
+    font-size: 30px;
+    color: #000;
+    /*text-shadow: 0 1px 2px rgba(0, 0, 0, 0.9);*/
+}
+.hero-content .lead.small {
+    font-size: 20px;
+    color: #000;
+    /*text-shadow: 0 1px 2px rgba(0, 0, 0, 0.9);*/
+}
+.act-btn {
+    margin-top: 60px;
+    color: #000;
+    font-size: 25px;
+    padding: 10px 40px;
+    border: 0;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.9);
+}
+.act-btn:hover {
+    border: 0;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.9);
+}
+/**/
+
 .site-wrapper {
     display: table;
     width: 100%;
-    height: 650px;
+    height: 600px;
     background: url(../img/2.png) center;
     background-size: cover;
     color: #fff
@@ -93,22 +149,3 @@ body {
     background-color: rgba(31, 58, 117, 0.0);
     vertical-align: middle;
 }
-.site-wrapper h1 {
-    font-size: 105px;
-    text-shadow: 0 1px 5px rgba(0, 0, 0, 0.9);
-    font-weight: lighter;
-}
-.site-wrapper h1 strong {
-    font-weight: 500
-}
-.site-wrapper .lead {
-    font-size: 30px;
-    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.9);
-}
-
-
-
-
-
-
-
