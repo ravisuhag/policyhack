@@ -5,7 +5,7 @@ particlesJS('canvaswrap', {
         opacity: .8,
         size: 2,
         size_random: true,
-        nb: 850,
+        nb: 550,
         line_linked: {
             enable_auto: true,
             distance: 100,

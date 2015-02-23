@@ -5,13 +5,15 @@
 html,
 body {
     height: 100%;
-    font-family: Dosis;
-    background: url(../img/patt.jpg);
+    font-family: Roboto;
     background-size: cover;
-    font-size: 19px
+    font-size: 17px;
+    font-weight: lighter;
+    line-height: 1.6em;
+    color: #000;
 }
+
 body {
-    text-align: center;
 }
 .m-80 {
     margin: 0 0 80px;
@@ -97,7 +99,8 @@ body {
     top:100px;
     color: #fff;
     left: 50%;
-    margin-left: -200px
+    margin-left: -250px;
+    text-align: center;
 
 }
 .hero-content h1 {
@@ -134,9 +137,11 @@ body {
 }
 /**/
 .main-heading{
-    font-size: 30px;
-    margin: 60px 0;
-    font-size: 70px
+    margin: 50px 0 45px;
+    font-size: 40px;
+    font-weight: lighter;
+    color: rgb(165,28,48);
+    text-align: center;
 }
 .icon-grid {
     border: 0;
