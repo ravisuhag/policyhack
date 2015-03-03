@@ -34,14 +34,20 @@
       </div>
       <div id="navbar" class="navbar-collapse collapse">
         <ul class="nav navbar-nav navbar-right">
-          <li class="active"><a href="#">Home</a>
+          <li class="active"><a href="#home">Home</a>
           </li>
           <li><a href="#about">About</a>
           </li>
-          <li><a href="#contact">Contact</a>
+          <li><a href="#prizes">Prizes</a>
+          </li>
+          <li><a href="#mentors">Mentors</a>
+          </li>
+          <li><a href="#judges">Judges</a>
+          </li>
+          <li><a href="#faqs">FAQs</a>
           </li>
           <li>
-            <button style="margin:18px 20px" type="button" class="btn btn-danger navbar-btn pull-right">Register</button>
+            <a style="margin:18px 20px; padding:7px 15px; color:#fff" target="_blank" href="https://www.eventbrite.com/e/policyhack-tickets-15871199184" class="btn btn-danger navbar-btn pull-right">Register</a>
           </li>
         </ul>
 
@@ -49,7 +55,7 @@
     </div>
   </nav>
 
-  <div class="hero-section">
+  <div id="home" class="hero-section">
     <div id="canvaswrap" class="hero-bg" style="z-index:-900">
     </div>
     <div class="hero-content">
@@ -62,7 +68,7 @@
   </div>
 
   <div class="container m-t-60">
-    <section>
+    <section id="about">
       <h1 class="main-heading">What is "POLICYHACK" ?</h1>
       <p>Do you want to develop software applications that improve the way the Indian government works? Do you want to write code that helps government work more efficiently, decreases corruption, and ensures that all Indians can benefit from the big data revolution? We know you’re out there: you are one of India’s elite coders, and you have the right skills to put data to work for your country.</p>
       <p>
@@ -74,7 +80,7 @@
       <p>Interested applicants should submit an application to join us as coders in the PolicyHack. If selected, you will be invited to participate in our two-day hackathon on Saturday, April 18 and Sunday, April 19. Policy problem tracks will be posted within three days of the PolicyHack, giving you time to consider your options and brainstorm ideas before showing up to the event and choosing your track. Upon arrival, you will have the option to form a team with other developers if you wish. From 10 am Saturday through 3:30 pm Sunday, you and your team will build your own prototype according to the track of your choice. You will then have the opportunity to present your solution to a panel of judges combining technical and policy experience.
       </p>
     </section>
-    <section>
+    <section id="prizes">
       <h1 class="main-heading">PRIZES</h1>
 
       <div class="row">
@@ -95,7 +101,7 @@
       </p>
     </section>
 
-    <section>
+    <section id="mentors">
       <h1 class="main-heading">Mentors</h1>
       <div class="row">
         <div class="col-sm-6 col-md-3">
@@ -137,7 +143,7 @@
       </div>
     </section>
 
-    <section>
+    <section id="judges">
       <h1 class="main-heading">Judges</h1>
       <div class="row">
         <div class="col-sm-6 col-md-3">
@@ -170,7 +176,7 @@
       </div>
     </section>
 
-    <section>
+    <section id="faqs">
       <h1 class="main-heading">FAQs</h1>
       <div class="row">
         <div class="col-md-12 faqs">
@@ -261,6 +267,13 @@
   <script src="assets/js/bootstrap.min.js"></script>
   <script src="assets/js/particles.js"></script>
   <script src="assets/js/main.js"></script>
+  <script>
+
+    $(".navbar-nav li a").on('click', function(e) {
+       e.preventDefault();
+       $('html, body').animate({ scrollTop: $(this.hash).offset().top-100}, 300);
+    });
+  </script>
 
 </body>
 
