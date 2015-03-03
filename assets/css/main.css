@@ -146,3 +146,7 @@ body {
 .icon-grid {
     border: 0;
 }
+.icon-grid img{
+    width: 128px;
+    border-radius: 50%
+}
