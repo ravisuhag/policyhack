@@ -150,3 +150,22 @@ body {
     width: 128px;
     border-radius: 50%
 }
+
+footer{
+    
+    background: url(../img/6.png);
+    background-size: cover;
+}
+.overlay{
+    height: 200px;
+    background-color: rgba(0,0,0,.2);
+}
+.faqs .panel-title a:hover{
+    text-decoration: none;
+}
+
+
+
+
+
+
