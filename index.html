@@ -8,7 +8,7 @@
   <meta name="description" content="">
   <meta name="author" content="">
   <link rel="shortcut icon" href="//static.projects.iq.harvard.edu/profiles/openscholar/themes/hwpi_classic/favicon.ico" type="image/vnd.microsoft.icon" />
-  <title>PolicyHack</title>
+  <title>PolicyHack - Open Data Hackathon</title>
   <link href='http://fonts.googleapis.com/css?family=Arimo' rel='stylesheet' type='text/css'>
   <link href="assets/css/bootstrap.min.css" rel="stylesheet">
   <link href="assets/css/main.css" rel="stylesheet">
@@ -46,6 +46,8 @@
           </li>
           <li><a href="#faqs">FAQs</a>
           </li>
+          <li><a href="#contact">Contact</a>
+          </li>
           <li>
             <a style="margin:18px 20px; padding:7px 15px; color:#fff" target="_blank" href="https://www.eventbrite.com/e/policyhack-tickets-15871199184" class="btn btn-danger navbar-btn pull-right">Register</a>
           </li>
@@ -61,7 +63,7 @@
     <div class="hero-content">
       <h1 class="cover-heading">PolicyHack</h1>
       <p class="lead">The open data hackathon</p>
-      <p class="lead small">18-19 April, 2015</p>
+      <p class="lead small">Delhi, 18-19 April, 2015</p>
       <p><a target="_blank" href="https://www.eventbrite.com/e/policyhack-tickets-15871199184" class="btn btn-lg btn-default act-btn">Register Now</a>
       </p>
     </div>
@@ -69,7 +71,7 @@
 
   <div class="container m-t-60">
     <section id="about">
-      <h1 class="main-heading">What is "POLICYHACK" ?</h1>
+      <h1 class="main-heading">What is "PolicyHack" ?</h1>
       <p>Do you want to develop software applications that improve the way the Indian government works? Do you want to write code that helps government work more efficiently, decreases corruption, and ensures that all Indians can benefit from the big data revolution? We know you’re out there: you are one of India’s elite coders, and you have the right skills to put data to work for your country.</p>
       <p>
         If this sounds like you, come join us at our first ever "PolicyHack", where we’ll be bringing India’s top coders together with policy makers and government partners to work on real-world problems that stand in the way of a more effective, efficient, and transparent government. Come join us to write applications, create practical visualizations, and solve some of the Indian government’s most difficult data-related challenges. PolicyHack will give you the opportunity to interact directly with mentors from the top tiers of the policy world to understand what types of solutions can meet their challenges, giving you the unique opportunity to build applications that are immediately relevant and applicable to the challenges that stand in the way of better government
@@ -228,7 +230,7 @@
               <div class="panel-heading" role="tab" id="headingFour">
                 <h4 class="panel-title">
                   <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                    How do I register
+                    How do I register ?
                   </a>
                 </h4>
               </div>
@@ -238,11 +240,41 @@
                 </div>
               </div>
             </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
-
-
-
-
+    <section id="contact">
+      <h1 class="main-heading">Contact</h1>
+      <div class="row">
+        <div class="col-sm-4 col-md-4">
+          <div class="thumbnail icon-grid">
+            <div class="caption text-center">
+              <h3>Venue Address</h3>
+              <br>
+              <p>To be announced soon</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-4 col-md-4">
+          <div class="thumbnail icon-grid">
+            <div class="caption text-center">
+              <h3>Phone</h3>
+              <br>
+              <p>Ravi - 9717860747</p>
+              <p>Eric - xxxxxxxxxx</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-4 col-md-4">
+          <div class="thumbnail icon-grid">
+            <div class="caption text-center">
+              <h3>Email</h3>
+              <br>
+              <p>ravi@inspirationedge.com</p>
+              <p>edodge11@gmail.com</p>
+            </div>
           </div>
         </div>
       </div>
@@ -252,10 +284,10 @@
   </div>
   <br>
   <br>
-  <br>
   <footer>
-    <div class="overlay">
-
+    <div class="overlay text-center">
+      Made with <i class="glyphicon glyphicon-heart"></i> in India
+    </div>
     </div>
   </footer>
 
@@ -268,11 +300,12 @@
   <script src="assets/js/particles.js"></script>
   <script src="assets/js/main.js"></script>
   <script>
-
-    $(".navbar-nav li a").on('click', function(e) {
-       e.preventDefault();
-       $('html, body').animate({ scrollTop: $(this.hash).offset().top-100}, 300);
-    });
+  $(".navbar-nav li a[href*=#]").on('click', function(e) {
+    e.preventDefault();
+    $('html, body').animate({
+      scrollTop: $(this.hash).offset().top - 100
+    }, 300);
+  });
   </script>
 
 </body>
