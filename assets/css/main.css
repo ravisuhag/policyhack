@@ -162,7 +162,11 @@ footer{
 .faqs .panel-title a:hover{
     text-decoration: none;
 }
-
+.icon-grid .s-icon{
+    height: 100px;
+    width: auto !important;
+    border-radius: 0;
+}
 
 
 
