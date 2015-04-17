@@ -44,7 +44,7 @@ body {
 }
 .tw-nav .navbar-nav > li > a {
     padding: 25px;
-    color: #000
+    color: #000;
 }
 .tw-nav .navbar-nav > li > a span.glyphicon {
     padding-left: 10px;
@@ -167,7 +167,14 @@ footer{
     width: auto !important;
     border-radius: 0;
 }
-
+.icon-grid .p-icon{
+    width: 100%;
+    max-width: 250px;
+    border-radius: 0;
+}
+h3{
+    font-size: 22px
+}
 
 
 
