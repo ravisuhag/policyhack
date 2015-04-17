@@ -176,6 +176,9 @@ footer{
 h3{
     font-size: 22px !important
 }
+.btn.btn-danger.navbar-btn.pull-right:hover{
+    color: #444;
+}
 
 
 
